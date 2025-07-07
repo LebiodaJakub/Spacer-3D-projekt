@@ -1,23 +1,26 @@
 using UnityEngine;
 
-public class DoorScript : MonoBehaviour, Interaction
+[RequireComponent(typeof(Interactable))]
+[RequireComponent(typeof(Animator))]
+public class DoorScript : MonoBehaviour
 {
-    PlayerInteractionScript playerInteraction;
-    [SerializeField] Animator doorAnimator;
+    Animator doorAnimator;
     [SerializeField] bool isDoorOpened = false;
+
+    Interactable interactable;
     Collider doorCollider;
     public bool Locked = false;
-    private void Start()
+
+    private void Awake()
     {
+        interactable = GetComponent<Interactable>();
+        doorAnimator = GetComponent<Animator>();
+        interactable.OnInteraction += DoInteraction;
         doorCollider = GetComponent<Collider>();
-        playerInteraction = GameManager.Instance.Player.GetComponent<PlayerInteractionScript>();
-        playerInteraction.OnPlayerInteraction += DoInteraction;
     }
 
-    public void DoInteraction(Transform doorT)
+    public void DoInteraction()
     {
-        if (doorT != transform || Locked)
-            return;
         if (isDoorOpened)
             CloseDoor();
         else
@@ -28,17 +31,19 @@ public class DoorScript : MonoBehaviour, Interaction
     {
         doorAnimator.Play("OpenDoorAnimation");
         isDoorOpened = true;
+        interactable.message = "Close";
     }
 
     void CloseDoor()
     {
         doorAnimator.Play("CloseDoorAnimation");
         isDoorOpened = false;
+        interactable.message = "Open";
     }
 
     private void OnDestroy()
     {
-        playerInteraction.OnPlayerInteraction -= DoInteraction;
+        interactable.OnInteraction -= DoInteraction;
     }
     void EnableCollider()
     {

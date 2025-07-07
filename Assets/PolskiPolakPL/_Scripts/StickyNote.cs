@@ -1,38 +1,25 @@
 using UnityEngine;
-using TMPro;
 
-public class StickyNote : MonoBehaviour, Interaction
+[RequireComponent(typeof(Interactable))]
+public class StickyNote : MonoBehaviour
 {
 
     [SerializeField][TextArea()] string content;
+    Interactable interactable;
 
-
-    PlayerInteractionScript playerInteraction;
-
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        playerInteraction = GameManager.Instance.Player.GetComponent<PlayerInteractionScript>();
-        playerInteraction.OnPlayerInteraction += DoInteraction;
-    }
-
-    public void DoInteraction(Transform noteT)
-    {
-        if (noteT != transform)
-            return;
-        OpenStickyNote();
+        interactable = GetComponent<Interactable>();
+        interactable.OnInteraction += OpenStickyNote;
     }
 
     void OpenStickyNote()
     {
-        AppManager.Instance.LockCursor(false);
-        GameManager.Instance.Player.GetComponent<PlayerMovement>().enabled = false;
-        StickyNoteUI.Instance.contentTextField.text = content;
-        StickyNoteUI.Instance.StickyNoteGO.SetActive(true);
+        UIPopUpManager.Instance.OpenPopUp(content);
     }
 
     private void OnDestroy()
     {
-        playerInteraction.OnPlayerInteraction -= DoInteraction;
+        interactable.OnInteraction -= OpenStickyNote;
     }
 }

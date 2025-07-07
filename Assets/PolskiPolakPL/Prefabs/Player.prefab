@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 1624845998972871997}
   - component: {fileID: 3204993937804518470}
   - component: {fileID: 5256162231971479754}
-  - component: {fileID: 7010962657259564809}
+  - component: {fileID: 6447846190379261297}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -255,7 +255,7 @@ MonoBehaviour:
   playerVelocity: {x: 0, y: 0, z: 0}
   playerCamera: {fileID: 0}
   mouseSensitivity: 1
---- !u!114 &7010962657259564809
+--- !u!114 &6447846190379261297
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -264,11 +264,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5554309896210335486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fff9e214b7d5cc54e8c6a2abf4fd4045, type: 3}
+  m_Script: {fileID: 11500000, guid: 170790b752d38ab4f97b2af87646ab1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cameraT: {fileID: 8694097830857090257}
-  playerReach: 1.5
-  interactionLayer:
-    serializedVersion: 2
-    m_Bits: 256
+  playerReach: 2
+  interactionKey: 101
