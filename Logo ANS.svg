@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="771"
+   height="135.5"
+   viewBox="0 0 203.99375 35.851041"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="395.53064"
+       y="10.799471"
+       width="353.00772"
+       height="66.146767"
+       id="rect15" />
+  </defs>
+  <g
+     id="layer1">
+    <path
+       style="fill:#08559a;fill-opacity:1;stroke-width:0.264583"
+       d="M 4.8,35 H 23 a 2,2 135 0 0 2,-2 L 25,2.25 A 0.58431865,0.58431865 16.286215 0 0 23.923269,1.9354231 L 3.8767307,33.314577 A 1.0955935,1.0955935 61.286215 0 0 4.8,35 Z"
+       id="path5"
+       transform="translate(-0.7044065,-0.16568135)" />
+    <path
+       style="fill:#759fbb;fill-opacity:1;stroke-width:0.264583"
+       d="M 4.8,35 H 23 a 2,2 135 0 0 2,-2 L 25,2.25 A 0.58431865,0.58431865 16.286215 0 0 23.923269,1.9354231 L 3.8767307,33.314577 A 1.0955935,1.0955935 61.286215 0 0 4.8,35 Z"
+       id="path7"
+       transform="matrix(-1,0,0,1,54,-0.16568135)" />
+    <path
+       style="fill:#08559a;fill-opacity:1;stroke-width:0.264583"
+       d="M 4.8,35 H 23 a 2,2 135 0 0 2,-2 L 25,2.25 A 0.58431865,0.58431865 16.286215 0 0 23.923269,1.9354231 L 3.8767307,33.314577 A 1.0955935,1.0955935 61.286215 0 0 4.8,35 Z"
+       id="path9"
+       transform="matrix(1,0,0,-1,32.295593,36.5)" />
+    <path
+       style="fill:#759fbb;fill-opacity:1;stroke-width:0.264583"
+       d="M 4.8,35 H 23 a 2,2 135 0 0 2,-2 L 25,2.25 A 0.58431865,0.58431865 16.286215 0 0 23.923269,1.9354231 L 3.8767307,33.314577 A 1.0955935,1.0955935 61.286215 0 0 4.8,35 Z"
+       id="path11"
+       transform="matrix(0,-1.1561994,-1.1666829,0,101.15722,30.65133)" />
+    <path
+       style="fill:#08559a;fill-opacity:1;stroke-width:0.264583"
+       d="M 4.8,35 H 23 a 2,2 135 0 0 2,-2 L 25,2.25 A 0.58431865,0.58431865 16.286215 0 0 23.923269,1.9354231 L 3.8767307,33.314577 A 1.0955935,1.0955935 61.286215 0 0 4.8,35 Z"
+       id="path12"
+       transform="matrix(0,1.1561994,1.1666829,0,58.379999,5.556709)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,8.0363254,-3.1053776)"
+       id="text15"
+       style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect15);shape-padding:4.72477;display:inline;fill:#08559a;fill-opacity:1"><tspan
+         x="400.25586"
+         y="52.856799"
+         id="tspan6"><tspan
+           style="font-size:42.6667px;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal'"
+           id="tspan1">A K A D E M I A</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:8.46667px;font-family:Poppins;-inkscape-font-specification:'Poppins, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#08559a;stroke-width:0.264583"
+       x="112.15139"
+       y="20.487104"
+       id="text4"><tspan
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.76111px;font-family:Poppins;-inkscape-font-specification:'Poppins, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="112.15139"
+         y="20.487104">NAUK STOSOWANYCH</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.76111px;font-family:Poppins;-inkscape-font-specification:'Poppins, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="112.15139"
+         y="31.070442"
+         id="tspan5">                   w ELBLĄGU</tspan></text>
+  </g>
+</svg>
