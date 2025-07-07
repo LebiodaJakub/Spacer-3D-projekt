@@ -197,7 +197,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83ad63b226b35a34fa6813f3fc0cfd8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorAnimator: {fileID: 5698122786763145227}
   isDoorOpened: 0
   Locked: 0
 --- !u!95 &5698122786763145227
