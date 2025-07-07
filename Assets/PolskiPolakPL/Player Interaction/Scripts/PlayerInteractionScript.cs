@@ -8,7 +8,6 @@ public class PlayerInteractionScript : MonoBehaviour
 {
     [SerializeField] Transform cameraT;
     [SerializeField] float playerReach = 2;
-    public KeyCode interactionKey = KeyCode.E;
 
     Interactable currentInteractable;
     Interactable newInteractable;
@@ -26,7 +25,7 @@ public class PlayerInteractionScript : MonoBehaviour
     void Update()
     {
         CheckInteraction();
-        if (Input.GetKeyDown(interactionKey) && currentInteractable)
+        if (Input.GetKeyDown(InputManager.Instance.InteractionKey) && currentInteractable)
         {
             currentInteractable.Interact();
         }
