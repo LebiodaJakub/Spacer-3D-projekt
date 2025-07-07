@@ -5,10 +5,10 @@ public class UIPopUpManager : MonoBehaviour
 {
     //Singleton
     public static UIPopUpManager Instance;
+    [SerializeField] TMP_Text contentTextField;
     [SerializeField] UnityEvent OnPopUpOpen;
     [SerializeField] UnityEvent OnPopUpClose;
 
-    [SerializeField] TMP_Text contentTextField;
     private void Awake()
     {
         if (Instance && Instance!=this)
