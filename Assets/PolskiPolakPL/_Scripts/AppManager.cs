@@ -12,7 +12,8 @@ public class AppManager : MonoBehaviour
         else
             Instance = this;
 
-        Application.targetFrameRate = 60;
+        if(Application.targetFrameRate != 60)
+            Application.targetFrameRate = 60;
     }
 
     public void LoadScene(int id)
@@ -20,29 +21,18 @@ public class AppManager : MonoBehaviour
        SceneManager.LoadScene(id);
     }
 
-    private void Update()
+    public void FreezeTime(bool freeze)
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (Cursor.lockState == CursorLockMode.Locked)
-            {
-                Cursor.lockState = CursorLockMode.Confined;
-            }
-            else
-            {
-                Cursor.lockState = CursorLockMode.Locked;
-            }
-        }
-        if (Input.GetKeyUp(KeyCode.F))
-        {
-            if (Screen.fullScreen)
-            {
-                Screen.fullScreen = false;
-            }
-            else
-            {
-                Screen.fullScreen = true;
-            }
-        }
+        if (freeze)
+            Time.timeScale = 0;
+        else Time.timeScale = 1;
+    }
+
+    public void LockCursor(bool lockCursor)
+    {
+        if (lockCursor)
+            Cursor.lockState = CursorLockMode.Locked;
+        else
+            Cursor.lockState = CursorLockMode.None;
     }
 }
