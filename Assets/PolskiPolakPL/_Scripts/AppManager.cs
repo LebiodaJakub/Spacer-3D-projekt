@@ -12,8 +12,8 @@ public class AppManager : MonoBehaviour
         else
             Instance = this;
 
-        if(Application.targetFrameRate != 60)
-            Application.targetFrameRate = 60;
+        Application.targetFrameRate = 60;
+
     }
 
     public void LoadScene(int id)
