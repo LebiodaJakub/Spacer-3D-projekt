@@ -6,7 +6,7 @@ using PolskiPolakPL.Utils;
 [RequireComponent(typeof(LineRenderer))]
 public class NavigationSystem : MonoBehaviour
 {
-    public NavigationSystem Instance;
+    public static NavigationSystem Instance;
 
     Timer refreshTimer;
     NavMeshPath path;
@@ -28,8 +28,8 @@ public class NavigationSystem : MonoBehaviour
     }
 
     [SerializeField] Transform Origin;
-    public Transform Target;
-    public float StoppingDistance=0.1f;
+    Transform target;
+    [SerializeField] float StoppingDistance=0.1f;
 
     public event Action OnTargetReached;
 
@@ -42,13 +42,23 @@ public class NavigationSystem : MonoBehaviour
         refreshTimer.Tick(Time.deltaTime);
     }
 
+    public void SetNewTarget(Transform targetT)
+    {
+        target = targetT;
+    }
+
+    public void ShowPath(bool show)
+    {
+        lineRenderer.enabled = show;
+    }
+
     void RefreshPath()
     {
-        if (!Target || !Origin)
+        if (!target || !Origin)
             return;
-        if (!NavMesh.CalculatePath(Origin.position, Target.position,NavMesh.AllAreas, path))
+        if (!NavMesh.CalculatePath(Origin.position, target.position,NavMesh.AllAreas, path))
         {
-            Debug.LogWarning($"Unable to calculate path between {Origin.position} and {Target.position}!");
+            Debug.LogWarning($"Unable to calculate path between {Origin.position} and {target.position}!");
             return;
         }
         DrawPath(path);
@@ -56,9 +66,12 @@ public class NavigationSystem : MonoBehaviour
 
     void CheckTargetReached()
     {
-        if (Vector3.Distance(Origin.position, Target.position) <= StoppingDistance)
+        if (!target || !Origin)
+            return;
+        if (Vector3.Distance(Origin.position, target.position) <= StoppingDistance)
         {
             Debug.Log("Target Reached!");
+            ShowPath(false);
             OnTargetReached?.Invoke();
         }
     }

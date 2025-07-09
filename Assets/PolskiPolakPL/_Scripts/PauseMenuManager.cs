@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class UIManager : MonoBehaviour
+public class PauseMenuManager : MonoBehaviour
 {
-    public static UIManager Instance;
+    public static PauseMenuManager Instance;
 
     [SerializeField] KeyCode pauseKey = KeyCode.Escape;
     bool isPaused = false;
