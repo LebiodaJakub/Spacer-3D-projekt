@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class ModelSwap : MonoBehaviour
 {
-    BetterTransform parent;
+    ParentT parent;
 
     // Start is called before the first frame update
     void Start()
     {
-        parent = new BetterTransform(transform);
+        parent = new ParentT(transform);
         UpdateShownModel(transform.GetChild(0));
     }
 

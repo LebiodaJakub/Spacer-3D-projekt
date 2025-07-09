@@ -1,10 +1,33 @@
 using System;
 using UnityEngine;
 using UnityEngine.AI;
+using PolskiPolakPL.Utils;
+
 [RequireComponent(typeof(LineRenderer))]
-public class Navigation : MonoBehaviour
+public class NavigationSystem : MonoBehaviour
 {
-    public Transform Origin;
+    public NavigationSystem Instance;
+
+    Timer refreshTimer;
+    NavMeshPath path;
+    LineRenderer lineRenderer;
+    private void Awake()
+    {
+        if(Instance && Instance!=this)
+            Destroy(gameObject);
+        else
+            Instance = this;
+
+
+
+        lineRenderer = GetComponent<LineRenderer>();
+        path = new NavMeshPath();
+        refreshTimer = new Timer(refreshTime, true);
+        refreshTimer.OnTimerEnd += RefreshPath;
+        refreshTimer.OnTimerEnd += CheckTargetReached;
+    }
+
+    [SerializeField] Transform Origin;
     public Transform Target;
     public float StoppingDistance=0.1f;
 
@@ -12,20 +35,7 @@ public class Navigation : MonoBehaviour
 
     [SerializeField] float refreshTime = 0.1f;
     [SerializeField] float heightOffset = 0.2f;
-    [SerializeField] LineRenderer lineRenderer;
 
-    PolskiPolakPL.Utils.Timer refreshTimer;
-    NavMeshPath path;
-
-
-    void Start()
-    {
-        lineRenderer = GetComponent<LineRenderer>();
-        path = new NavMeshPath();
-        refreshTimer = new PolskiPolakPL.Utils.Timer(refreshTime, true);
-        refreshTimer.OnTimerEnd += RefreshPath;
-        refreshTimer.OnTimerEnd += HandleTargetReachedEvent;
-    }
 
     private void Update()
     {
@@ -44,7 +54,7 @@ public class Navigation : MonoBehaviour
         DrawPath(path);
     }
 
-    void HandleTargetReachedEvent()
+    void CheckTargetReached()
     {
         if (Vector3.Distance(Origin.position, Target.position) <= StoppingDistance)
         {
@@ -65,6 +75,6 @@ public class Navigation : MonoBehaviour
     private void OnDestroy()
     {
         refreshTimer.OnTimerEnd -= RefreshPath;
-        refreshTimer.OnTimerEnd -= HandleTargetReachedEvent;
+        refreshTimer.OnTimerEnd -= CheckTargetReached;
     }
 }

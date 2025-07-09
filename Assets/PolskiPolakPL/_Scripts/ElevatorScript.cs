@@ -4,11 +4,11 @@ public class ElevatorScript : MonoBehaviour
 {
     [SerializeField] float Speed = 1;
     [SerializeField] Transform floors;
-    BetterTransform bt;
+    ParentT bt;
     Transform elevator, target;
     private void Start()
     {
-        bt = new BetterTransform(floors);
+        bt = new ParentT(floors);
         elevator = transform.GetChild(0);
         target = floors.GetChild(0);
     }

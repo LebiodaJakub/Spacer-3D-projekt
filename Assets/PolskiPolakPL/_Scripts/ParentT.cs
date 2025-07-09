@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BetterTransform : Transform
+public class ParentT : Transform
 {
     readonly Transform outer;
     public int ChildIndex { get; private set; } = 0;
 
-    public BetterTransform(Transform transform)
+    public ParentT(Transform transform)
     {
         this.outer = transform;
     }
