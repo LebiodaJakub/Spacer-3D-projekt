@@ -4286,7 +4286,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.1
+        value: 0.16
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -4350,8 +4350,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Origin: {fileID: 1484640928}
-  StoppingDistance: 0.1
-  refreshTime: 0.1
+  StoppingDistance: 1
+  refreshTime: 0.05
   heightOffset: 0.2
 --- !u!1 &838601735
 GameObject:
