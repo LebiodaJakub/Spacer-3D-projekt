@@ -27,7 +27,7 @@ public class NavigationSystem : MonoBehaviour
         refreshTimer.OnTimerEnd += CheckTargetReached;
     }
 
-    [SerializeField] Transform Origin;
+    Transform origin;
     Transform target;
     [SerializeField] float StoppingDistance=0.1f;
 
@@ -35,6 +35,11 @@ public class NavigationSystem : MonoBehaviour
 
     [SerializeField] float refreshTime = 0.1f;
     [SerializeField] float heightOffset = 0.2f;
+
+    private void Start()
+    {
+        origin = GameManager.Instance.Player.transform;
+    }
 
 
     private void Update()
@@ -54,11 +59,11 @@ public class NavigationSystem : MonoBehaviour
 
     void RefreshPath()
     {
-        if (!target || !Origin)
+        if (!target || !origin)
             return;
-        if (!NavMesh.CalculatePath(Origin.position, target.position,NavMesh.AllAreas, path))
+        if (!NavMesh.CalculatePath(origin.position, target.position,NavMesh.AllAreas, path))
         {
-            Debug.LogWarning($"Unable to calculate path between {Origin.position} and {target.position}!");
+            Debug.LogWarning($"Unable to calculate path between {origin.position} and {target.position}!");
             return;
         }
         DrawPath(path);
@@ -66,9 +71,9 @@ public class NavigationSystem : MonoBehaviour
 
     void CheckTargetReached()
     {
-        if (!target || !Origin)
+        if (!target || !origin)
             return;
-        if (Vector3.Distance(Origin.position, target.position) <= StoppingDistance)
+        if (Vector3.Distance(origin.position, target.position) <= StoppingDistance)
         {
             Debug.Log("Target Reached!");
             ShowPath(false);
