@@ -8860,9 +8860,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1527469458}
-        m_TargetAssemblyTypeName: NavigationDropdownScript, Assembly-CSharp
-        m_MethodName: TeleportPlayer
+      - m_Target: {fileID: 38405752}
+        m_TargetAssemblyTypeName: PauseMenuManager, Assembly-CSharp
+        m_MethodName: ResumeGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8872,9 +8872,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 38405752}
-        m_TargetAssemblyTypeName: PauseMenuManager, Assembly-CSharp
-        m_MethodName: ResumeGame
+      - m_Target: {fileID: 1527469458}
+        m_TargetAssemblyTypeName: NavigationDropdownScript, Assembly-CSharp
+        m_MethodName: TeleportPlayer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
