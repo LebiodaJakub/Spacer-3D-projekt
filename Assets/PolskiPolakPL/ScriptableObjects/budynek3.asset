@@ -14,10 +14,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BuildingID: 2
   Name: "Instytut J\u0119zykowy"
-  InstitutesList:
-  - "Instytut Pedagogiczno-J\u0119zykowy"
+  LocaleStringName:
+    m_TableReference:
+      m_TableCollectionName: GUID:57a28b37f6201cf46b5211355babb932
+    m_TableEntryReference:
+      m_KeyId: 2445428142080
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  Description: 
+  DescriptionLocalizedString:
+    m_TableReference:
+      m_TableCollectionName: GUID:57a28b37f6201cf46b5211355babb932
+    m_TableEntryReference:
+      m_KeyId: 2979597922304
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   StreetName: Czerniakowska
   BuildingNumber: 22
   ApartmentNmber: 
   PostalCode: 82-340
   CityName: "Elbl\u0105g"
+  references:
+    version: 2
+    RefIds: []

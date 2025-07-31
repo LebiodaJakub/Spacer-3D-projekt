@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Pause Menu UI Text_pl
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pl
+  m_SharedData: {fileID: 11400000, guid: 359f12b89e95038429d92aa4ff13bbb2, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 157540167680
+    m_Localized: "Narz\u0119dzia i opcje"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 782847979520
+    m_Localized: "Wyszukaj Pok\xF3j"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 974833856512
+    m_Localized: "Przenie\u015B"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2061712240640
+    m_Localized: "Poka\u017C Drog\u0119"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2359826591744
+    m_Localized: "Wyjd\u017A do Menu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2781219926016
+    m_Localized: "Powr\xF3t"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

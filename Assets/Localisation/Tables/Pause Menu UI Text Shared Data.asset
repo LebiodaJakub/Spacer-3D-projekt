@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Pause Menu UI Text Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Pause Menu UI Text
+  m_TableCollectionNameGuidString: 359f12b89e95038429d92aa4ff13bbb2
+  m_Entries:
+  - m_Id: 157540167680
+    m_Key: Pause Menu Header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 782847979520
+    m_Key: Search Room Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 974833856512
+    m_Key: Teleport Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2061712240640
+    m_Key: Path Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2359826591744
+    m_Key: Back to Main Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2781219926016
+    m_Key: Resume Button
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4583711855940993048
+  references:
+    version: 2
+    RefIds:
+    - rid: 4583711855940993048
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1753957554736

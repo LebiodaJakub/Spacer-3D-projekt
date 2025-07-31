@@ -14,10 +14,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BuildingID: 1
   Name: Instytut Informatyczny
-  InstitutesList:
-  - Instytut Informatyczny
+  LocaleStringName:
+    m_TableReference:
+      m_TableCollectionName: GUID:57a28b37f6201cf46b5211355babb932
+    m_TableEntryReference:
+      m_KeyId: 1527441797120
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  Description: 
+  DescriptionLocalizedString:
+    m_TableReference:
+      m_TableCollectionName: GUID:57a28b37f6201cf46b5211355babb932
+    m_TableEntryReference:
+      m_KeyId: 1604549881856
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   StreetName: Wojska Polskiego
   BuildingNumber: 1
   ApartmentNmber: 
   PostalCode: 82-340
   CityName: "Elbl\u0105g"
+  references:
+    version: 2
+    RefIds: []

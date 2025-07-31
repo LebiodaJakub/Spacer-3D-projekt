@@ -14,11 +14,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BuildingID: 0
   Name: Instytut Ekonomiczny
-  InstitutesList:
-  - Instytut Politechniczny
-  - Instytut Ekonomiczny
+  LocaleStringName:
+    m_TableReference:
+      m_TableCollectionName: GUID:57a28b37f6201cf46b5211355babb932
+    m_TableEntryReference:
+      m_KeyId: 85050011648
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  Description: 'Instytuty:
+
+    - Instytut 1
+
+    - Instytut 2'
+  DescriptionLocalizedString:
+    m_TableReference:
+      m_TableCollectionName: GUID:57a28b37f6201cf46b5211355babb932
+    m_TableEntryReference:
+      m_KeyId: 375266488320
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   StreetName: Aleja Grunwaldzka
   BuildingNumber: 137
   ApartmentNmber: 
   PostalCode: 82-300
   CityName: "Elbl\u0105g"
+  references:
+    version: 2
+    RefIds: []

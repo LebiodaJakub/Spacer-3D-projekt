@@ -11,4 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Inside Scene/Inside Scene.unity
     guid: 3f895cf91fbdf1b45aa5e7adfc30a2a5
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: b27bf0dc35b8b744694a36d73a861be3, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 6d7243c20beba0e49831d23113b7d904, type: 2}
