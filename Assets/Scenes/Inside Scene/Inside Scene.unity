@@ -160,6 +160,7 @@ GameObject:
   - component: {fileID: 38405753}
   - component: {fileID: 38405752}
   - component: {fileID: 38405755}
+  - component: {fileID: 38405756}
   - component: {fileID: 38405754}
   m_Layer: 0
   m_Name: UI Manager
@@ -310,6 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7694a8caf2904144853767b0991c81d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  localStrEvent: {fileID: 38405756}
   contentTextField: {fileID: 52891905}
   OnPopUpOpen:
     m_PersistentCalls:
@@ -402,6 +404,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionMessage: {fileID: 1850753849}
+--- !u!114 &38405756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38405751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:584e7698f5b6da5439cf75a872ab361a
+    m_TableEntryReference:
+      m_KeyId: 22100742144
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 52891905}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1001 &38486754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3816,6 +3858,14 @@ PrefabInstance:
       propertyPath: content
       value: "Pod\u0105\u017Caj za niebiesk\u0105 \u015Bcie\u017Ck\u0105 dzielny
         u\u017Cytkowniku..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3693508951882128933, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: localizedString.m_TableEntryReference.m_KeyId
+      value: 22100742144
+      objectReference: {fileID: 0}
+    - target: {fileID: 3693508951882128933, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: localizedString.m_TableReference.m_TableCollectionName
+      value: GUID:584e7698f5b6da5439cf75a872ab361a
       objectReference: {fileID: 0}
     - target: {fileID: 4926116586255886734, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9927,6 +9977,14 @@ PrefabInstance:
       propertyPath: content
       value: "Aby otworzy\u0107 te drzwi musisz klikn\u0105\u0107 na nie <color=#990000><b>Lewym
         Przyciskiem Myszki</b></color>."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3693508951882128933, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: localizedString.m_TableEntryReference.m_KeyId
+      value: 1606557798400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3693508951882128933, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: localizedString.m_TableReference.m_TableCollectionName
+      value: GUID:584e7698f5b6da5439cf75a872ab361a
       objectReference: {fileID: 0}
     - target: {fileID: 4926116586255886734, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
       propertyPath: m_LocalPosition.x

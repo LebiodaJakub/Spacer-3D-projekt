@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Components;
 
 [RequireComponent(typeof(Interactable))]
 public class StickyNote : MonoBehaviour
 {
-
+    [SerializeField] LocalizedString localizedString;
     [SerializeField][TextArea()] string content;
     Interactable interactable;
 
@@ -15,7 +17,10 @@ public class StickyNote : MonoBehaviour
 
     void OpenStickyNote()
     {
-        UIPopUpManager.Instance.OpenPopUp(content);
+        if (localizedString != null)
+            UIPopUpManager.Instance.OpenPopUp(localizedString);
+        else
+            UIPopUpManager.Instance.OpenPopUp(content);
     }
 
     private void OnDestroy()

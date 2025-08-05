@@ -17,6 +17,13 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: f7d06ee3e084190468d2d1dfbabd4229
   m_SerializeEntries:
+  - m_GUID: 5a5639a5db144fe469a5fb9f6266a028
+    m_Address: Sticky Notes Table_pl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pl
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 73a0109238ac9cb41922752a25b1f982
     m_Address: Main Menu Table_pl
     m_ReadOnly: 1
