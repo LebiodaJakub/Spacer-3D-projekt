@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Interaction Table_uk
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: uk
+  m_SharedData: {fileID: 11400000, guid: 783ce012de0af73489248f0ca0f30e9c, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 6778332083588431892
+  m_TableData:
+  - m_Id: 29000372224
+    m_Localized: "{InteractKey} Otwiera\u0107"
+    m_Metadata:
+      m_Items:
+      - rid: 6778332083588431892
+  - m_Id: 153894162432
+    m_Localized: '{InteractKey} Czitajetsa'
+    m_Metadata:
+      m_Items:
+      - rid: 6778332083588431892
+  - m_Id: 324866576384
+    m_Localized: '{InteractKey} Wciskajetsa'
+    m_Metadata:
+      m_Items:
+      - rid: 6778332083588431892
+  - m_Id: 1017086119936
+    m_Localized: "{InteractKey} Zamknij (ale po ukrai\u0144sku)"
+    m_Metadata:
+      m_Items:
+      - rid: 6778332083588431892
+  references:
+    version: 2
+    RefIds:
+    - rid: 6778332083588431892
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 1017086119936
+        - id: 29000372224
+        - id: 324866576384
+        - id: 153894162432

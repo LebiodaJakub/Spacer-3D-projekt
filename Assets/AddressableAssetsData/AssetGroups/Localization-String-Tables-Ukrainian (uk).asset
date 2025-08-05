@@ -31,6 +31,13 @@ MonoBehaviour:
     - Locale-uk
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83cfea74e6820c548b8b056d50817ba9
+    m_Address: Interaction Table_uk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-uk
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c5eb42d86b159f547819738e2cef23ef
     m_Address: Main Menu Table_uk
     m_ReadOnly: 1

@@ -1,15 +1,19 @@
 using UnityEngine;
+using UnityEngine.Localization;
 
 [RequireComponent(typeof(Interactable))]
 [RequireComponent(typeof(Animator))]
 public class DoorScript : MonoBehaviour
 {
-    Animator doorAnimator;
-    [SerializeField] bool isDoorOpened = false;
+    [SerializeField] LocalizedString openLocale;
+    [SerializeField] LocalizedString closeLocale;
 
+    public bool Locked = false;
+
+    Animator doorAnimator;
+    bool isDoorOpened = false;
     Interactable interactable;
     Collider doorCollider;
-    public bool Locked = false;
 
     private void Awake()
     {
@@ -31,14 +35,14 @@ public class DoorScript : MonoBehaviour
     {
         doorAnimator.Play("OpenDoorAnimation");
         isDoorOpened = true;
-        interactable.message = "Close";
+        interactable.localizedMessage = openLocale;
     }
 
     void CloseDoor()
     {
         doorAnimator.Play("CloseDoorAnimation");
         isDoorOpened = false;
-        interactable.message = "Open";
+        interactable.localizedMessage = closeLocale;
     }
 
     private void OnDestroy()

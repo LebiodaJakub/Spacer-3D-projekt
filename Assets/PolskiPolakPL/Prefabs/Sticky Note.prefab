@@ -48,7 +48,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 744dfc342cd43394a97e8dcbdd3ac967, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: Example Text
+  localizedString:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!65 &5050786085996568886
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -83,6 +94,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Read
+  localizedMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
+    m_TableEntryReference:
+      m_KeyId: 153894162432
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &6452256853341444932
 MonoBehaviour:
   m_ObjectHideFlags: 0
