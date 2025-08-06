@@ -32,13 +32,11 @@ public class PauseMenuManager : MonoBehaviour
     {
         AppManager.Instance.LockCursor(false);
         OnPaused?.Invoke();
-        AppManager.Instance.FreezeTime(true);
         isPaused = true;
     }
 
     public void ResumeGame()
     {
-        AppManager.Instance.FreezeTime(false);
         AppManager.Instance.LockCursor(true);
         OnResume?.Invoke();
         isPaused = false;
