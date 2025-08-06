@@ -27,6 +27,16 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 584e7698f5b6da5439cf75a872ab361a
+    m_Address: Assets/Localisation/Tables/Sticky Notes Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 783ce012de0af73489248f0ca0f30e9c
+    m_Address: Assets/Localisation/Tables/Interaction Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 6dacd0adf173e0f4d940ffa02bb74b01, type: 2}
   m_SchemaSet:

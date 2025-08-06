@@ -310,6 +310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7694a8caf2904144853767b0991c81d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  localStrEvent: {fileID: 52891907}
   contentTextField: {fileID: 52891905}
   OnPopUpOpen:
     m_PersistentCalls:
@@ -402,6 +403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionMessage: {fileID: 1850753849}
+  localizeStrEvent: {fileID: 1850753851}
 --- !u!1001 &38486754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -633,6 +635,7 @@ GameObject:
   - component: {fileID: 52891904}
   - component: {fileID: 52891906}
   - component: {fileID: 52891905}
+  - component: {fileID: 52891907}
   m_Layer: 5
   m_Name: Note Text (TMP)
   m_TagString: Untagged
@@ -756,6 +759,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52891903}
   m_CullTransparentMesh: 1
+--- !u!114 &52891907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52891903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:584e7698f5b6da5439cf75a872ab361a
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 52891905}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &62678743 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3442955515856937368, guid: ec7dfc9b8b0c1474781d74bc4eb22ab1, type: 3}
@@ -1073,7 +1116,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25560f2ef01ab3840858582c2a242d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Call Elevator
+  message: Press
+  localizedMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
+    m_TableEntryReference:
+      m_KeyId: 324866576384
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables:
+    - name: InteractKey
+      variable:
+        rid: 6778332102063030280
+  references:
+    version: 2
+    RefIds:
+    - rid: 6778332102063030280
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: '[E]'
 --- !u!114 &97621773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1271,6 +1333,103 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8556100700250111938, guid: 48f59bc1c3c7e9747a83e5d5e0797d26, type: 3}
+--- !u!1001 &131047939
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2064711693}
+    m_Modifications:
+    - target: {fileID: 2558825763462646792, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_Name
+      value: Language Dropdown
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_Pivot.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
 --- !u!1001 &131788169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3720,6 +3879,14 @@ PrefabInstance:
       value: "Pod\u0105\u017Caj za niebiesk\u0105 \u015Bcie\u017Ck\u0105 dzielny
         u\u017Cytkowniku..."
       objectReference: {fileID: 0}
+    - target: {fileID: 3693508951882128933, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: localizedString.m_TableEntryReference.m_KeyId
+      value: 22100742144
+      objectReference: {fileID: 0}
+    - target: {fileID: 3693508951882128933, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: localizedString.m_TableReference.m_TableCollectionName
+      value: GUID:584e7698f5b6da5439cf75a872ab361a
+      objectReference: {fileID: 0}
     - target: {fileID: 4926116586255886734, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.0749
@@ -3759,6 +3926,26 @@ PrefabInstance:
     - target: {fileID: 4926116586255886734, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829773386711076162, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: managedReferences[6778332102063030275]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829773386711076162, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: localizedMessage.m_LocalVariables.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829773386711076162, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: managedReferences[6778332102063030275].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829773386711076162, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: localizedMessage.m_LocalVariables.Array.data[0].name
+      value: InteractKey
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829773386711076162, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: localizedMessage.m_LocalVariables.Array.data[0].variable
+      value: 6778332102063030275
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4616,6 +4803,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792025571}
   m_CullTransparentMesh: 1
+--- !u!224 &795892460 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7751263038557234370, guid: 1a71cecf3edf76544be1ba4778d0f7b5, type: 3}
+  m_PrefabInstance: {fileID: 131047939}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &798487687
 GameObject:
   m_ObjectHideFlags: 0
@@ -6633,7 +6825,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25560f2ef01ab3840858582c2a242d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Call Elevator
+  message: Press
+  localizedMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
+    m_TableEntryReference:
+      m_KeyId: 324866576384
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables:
+    - name: InteractKey
+      variable:
+        rid: 6778332102063030280
+  references:
+    version: 2
+    RefIds:
+    - rid: 6778332102063030280
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: '[E]'
 --- !u!114 &1201830782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7940,7 +8151,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25560f2ef01ab3840858582c2a242d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Call Elevator
+  message: Press
+  localizedMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
+    m_TableEntryReference:
+      m_KeyId: 324866576384
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables:
+    - name: InteractKey
+      variable:
+        rid: 6778332102063030280
+  references:
+    version: 2
+    RefIds:
+    - rid: 6778332102063030280
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: '[E]'
 --- !u!114 &1442295431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8870,7 +9100,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25560f2ef01ab3840858582c2a242d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Call Elevator
+  message: Press
+  localizedMessage:
+    m_TableReference:
+      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
+    m_TableEntryReference:
+      m_KeyId: 324866576384
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables:
+    - name: InteractKey
+      variable:
+        rid: 6778332102063030280
+  references:
+    version: 2
+    RefIds:
+    - rid: 6778332102063030280
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: '[E]'
 --- !u!114 &1627839435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9826,6 +10075,14 @@ PrefabInstance:
       value: "Aby otworzy\u0107 te drzwi musisz klikn\u0105\u0107 na nie <color=#990000><b>Lewym
         Przyciskiem Myszki</b></color>."
       objectReference: {fileID: 0}
+    - target: {fileID: 3693508951882128933, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: localizedString.m_TableEntryReference.m_KeyId
+      value: 1606557798400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3693508951882128933, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: localizedString.m_TableReference.m_TableCollectionName
+      value: GUID:584e7698f5b6da5439cf75a872ab361a
+      objectReference: {fileID: 0}
     - target: {fileID: 4926116586255886734, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.042
@@ -10294,6 +10551,7 @@ GameObject:
   - component: {fileID: 1850753848}
   - component: {fileID: 1850753850}
   - component: {fileID: 1850753849}
+  - component: {fileID: 1850753851}
   m_Layer: 5
   m_Name: Interaction Text (TMP)
   m_TagString: Untagged
@@ -10417,6 +10675,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1850753847}
   m_CullTransparentMesh: 1
+--- !u!114 &1850753851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850753847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables:
+    - name: InteractKey
+      variable:
+        rid: 6778332083588431896
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1850753849}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 6778332083588431896
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: '[E]'
 --- !u!4 &1852336802 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e18b700c41c0f2849aea6a15e5ac7d12, type: 3}
@@ -11499,6 +11804,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 795892460}
   - {fileID: 792025572}
   - {fileID: 1850753848}
   - {fileID: 893356806}

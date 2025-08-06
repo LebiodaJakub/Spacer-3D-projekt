@@ -17,8 +17,22 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: be5d73d5dea51b744a31e68cb875d3e5
   m_SerializeEntries:
+  - m_GUID: 0d35b033242f53d4dac2806bbe215d0e
+    m_Address: Sticky Notes Table_uk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-uk
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5f23aff58cf5c0148a30d55348cfb924
     m_Address: Pause Menu UI Text_uk
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-uk
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83cfea74e6820c548b8b056d50817ba9
+    m_Address: Interaction Table_uk
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-uk

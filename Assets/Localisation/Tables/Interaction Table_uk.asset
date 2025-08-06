@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Interaction Table_uk
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: uk
+  m_SharedData: {fileID: 11400000, guid: 783ce012de0af73489248f0ca0f30e9c, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 6778332083588431892
+  m_TableData:
+  - m_Id: 29000372224
+    m_Localized: "{InteractKey} \u0412\u0456\u0434\u0447\u0438\u043D\u0456\u0442\u044C
+      \u0434\u0432\u0435\u0440\u0456"
+    m_Metadata:
+      m_Items:
+      - rid: 6778332083588431892
+  - m_Id: 153894162432
+    m_Localized: "{InteractKey} \u041F\u0440\u043E\u0447\u0438\u0442\u0430\u0439
+      \u0446\u0435"
+    m_Metadata:
+      m_Items:
+      - rid: 6778332083588431892
+  - m_Id: 324866576384
+    m_Localized: "{InteractKey} \u043D\u0430\u0442\u0438\u0441\u043D\u0456\u0442\u044C"
+    m_Metadata:
+      m_Items:
+      - rid: 6778332083588431892
+  - m_Id: 1017086119936
+    m_Localized: "{InteractKey} \u0437\u0430\u0447\u0438\u043D\u0438\u0442\u0438
+      \u0434\u0432\u0435\u0440\u0456\r"
+    m_Metadata:
+      m_Items:
+      - rid: 6778332083588431892
+  references:
+    version: 2
+    RefIds:
+    - rid: 6778332083588431892
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 1017086119936
+        - id: 29000372224
+        - id: 324866576384
+        - id: 153894162432

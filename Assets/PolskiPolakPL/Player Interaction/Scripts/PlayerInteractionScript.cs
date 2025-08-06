@@ -62,9 +62,9 @@ public class PlayerInteractionScript : MonoBehaviour
         currentInteractable = newInteractable;
         currentInteractable.EnableOutline();
         if (InteractionUIManager.Instance)
-            InteractionUIManager.Instance.EnableInteractionText(currentInteractable.message);
-
+            InteractionUIManager.Instance.EnableInteractionText(currentInteractable.localizedMessage);
     }
+
     void DisableCurrentInteractable()
     {
         if (InteractionUIManager.Instance)

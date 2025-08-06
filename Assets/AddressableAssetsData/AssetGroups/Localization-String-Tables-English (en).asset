@@ -24,8 +24,22 @@ MonoBehaviour:
     - Locale-en
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94ac4929d1f1ae34f989b9d54dc8e267
+    m_Address: Interaction Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c8c32f769d60ace4a98bd40041188420
     m_Address: Main Menu Table_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d14f8e2a6eea94f43959c8934d239c13
+    m_Address: Sticky Notes Table_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Localization;
 /// <summary>
 /// Interaction System made with this
 /// <seealso href="https://youtu.be/b7Yf6BFx6js">tutorial</seealso>
@@ -12,6 +13,7 @@ public class Interactable : MonoBehaviour
 
     Outline outline;
     public string message;
+    public LocalizedString localizedMessage;
 
 
     public void Interact()
