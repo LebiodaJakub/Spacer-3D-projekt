@@ -9,7 +9,6 @@ public class PlayerInteractionScript : MonoBehaviour
     [SerializeField] Transform cameraT;
     [SerializeField] float playerReach = 2;
     public KeyCode interactionKey = KeyCode.E;
-    [HideInInspector] public string interactionKeyStr = "[E]";
 
     Interactable currentInteractable;
     Interactable newInteractable;

@@ -102,10 +102,17 @@ MonoBehaviour:
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
-    m_LocalVariables: []
+    m_LocalVariables:
+    - name: InteractKey
+      variable:
+        rid: 6778332102063030277
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 6778332102063030277
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: '[E]'
 --- !u!114 &6452256853341444932
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -35,14 +35,14 @@ public class DoorScript : MonoBehaviour
     {
         doorAnimator.Play("OpenDoorAnimation");
         isDoorOpened = true;
-        interactable.localizedMessage = openLocale;
+        interactable.localizedMessage = closeLocale;
     }
 
     void CloseDoor()
     {
         doorAnimator.Play("CloseDoorAnimation");
         isDoorOpened = false;
-        interactable.localizedMessage = closeLocale;
+        interactable.localizedMessage = openLocale;
     }
 
     private void OnDestroy()

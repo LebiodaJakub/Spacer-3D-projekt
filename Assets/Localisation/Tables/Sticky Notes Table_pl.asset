@@ -23,7 +23,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1606557798400
-    m_Localized: "Aby otworzy\u0107 te drzwi musisz klikn\u0105\u0107 <color=#990000><b>E</b></color>"
+    m_Localized: "Aby otworzy\u0107 drzwi, naci\u015Bnij <color=#990000><b>E</b></color>"
     m_Metadata:
       m_Items: []
   references:

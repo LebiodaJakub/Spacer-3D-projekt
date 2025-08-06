@@ -20,7 +20,7 @@ MonoBehaviour:
     - rid: 6778332083588431891
   m_TableData:
   - m_Id: 29000372224
-    m_Localized: '{InteractKey} Open'
+    m_Localized: '{InteractKey} Open Door'
     m_Metadata:
       m_Items:
       - rid: 6778332083588431891
@@ -35,7 +35,7 @@ MonoBehaviour:
       m_Items:
       - rid: 6778332083588431891
   - m_Id: 1017086119936
-    m_Localized: '{InteractKey} Close'
+    m_Localized: '{InteractKey} Close Door'
     m_Metadata:
       m_Items:
       - rid: 6778332083588431891

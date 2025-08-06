@@ -32,6 +32,7 @@ public class InteractionUIManager : MonoBehaviour
 
     public void EnableInteractionText(LocalizedString locale)
     {
+        //localizeStrEvent.StringReference.Add("InteractKey", locale);
         localizeStrEvent.StringReference = locale;
         interactionMessage.gameObject.SetActive(true);
     }

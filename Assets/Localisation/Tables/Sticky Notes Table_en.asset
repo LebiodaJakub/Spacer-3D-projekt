@@ -23,7 +23,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1606557798400
-    m_Localized: In order to open the door you need to press <color=#990000><b>E</b></color>
+    m_Localized: To open the door, press <color=#990000><b>E</b></color>
     m_Metadata:
       m_Items: []
   references:

@@ -20,22 +20,25 @@ MonoBehaviour:
     - rid: 6778332083588431892
   m_TableData:
   - m_Id: 29000372224
-    m_Localized: "{InteractKey} Otwiera\u0107"
+    m_Localized: "{InteractKey} \u0412\u0456\u0434\u0447\u0438\u043D\u0456\u0442\u044C
+      \u0434\u0432\u0435\u0440\u0456"
     m_Metadata:
       m_Items:
       - rid: 6778332083588431892
   - m_Id: 153894162432
-    m_Localized: '{InteractKey} Czitajetsa'
+    m_Localized: "{InteractKey} \u041F\u0440\u043E\u0447\u0438\u0442\u0430\u0439
+      \u0446\u0435"
     m_Metadata:
       m_Items:
       - rid: 6778332083588431892
   - m_Id: 324866576384
-    m_Localized: '{InteractKey} Wciskajetsa'
+    m_Localized: "{InteractKey} \u043D\u0430\u0442\u0438\u0441\u043D\u0456\u0442\u044C"
     m_Metadata:
       m_Items:
       - rid: 6778332083588431892
   - m_Id: 1017086119936
-    m_Localized: "{InteractKey} Zamknij (ale po ukrai\u0144sku)"
+    m_Localized: "{InteractKey} \u0437\u0430\u0447\u0438\u043D\u0438\u0442\u0438
+      \u0434\u0432\u0435\u0440\u0456\r"
     m_Metadata:
       m_Items:
       - rid: 6778332083588431892

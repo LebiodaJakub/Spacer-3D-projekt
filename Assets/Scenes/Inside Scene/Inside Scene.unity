@@ -1116,19 +1116,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25560f2ef01ab3840858582c2a242d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Call Elevator
+  message: Press
   localizedMessage:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 324866576384
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
-    m_LocalVariables: []
+    m_LocalVariables:
+    - name: InteractKey
+      variable:
+        rid: 6778332102063030280
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 6778332102063030280
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: '[E]'
 --- !u!114 &97621773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3919,6 +3926,26 @@ PrefabInstance:
     - target: {fileID: 4926116586255886734, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829773386711076162, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: managedReferences[6778332102063030275]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829773386711076162, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: localizedMessage.m_LocalVariables.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829773386711076162, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: managedReferences[6778332102063030275].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829773386711076162, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: localizedMessage.m_LocalVariables.Array.data[0].name
+      value: InteractKey
+      objectReference: {fileID: 0}
+    - target: {fileID: 5829773386711076162, guid: 64f5ab1560013d646aa6b70854522a63, type: 3}
+      propertyPath: localizedMessage.m_LocalVariables.Array.data[0].variable
+      value: 6778332102063030275
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6798,19 +6825,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25560f2ef01ab3840858582c2a242d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Call Elevator
+  message: Press
   localizedMessage:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 324866576384
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
-    m_LocalVariables: []
+    m_LocalVariables:
+    - name: InteractKey
+      variable:
+        rid: 6778332102063030280
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 6778332102063030280
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: '[E]'
 --- !u!114 &1201830782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8117,19 +8151,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25560f2ef01ab3840858582c2a242d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Call Elevator
+  message: Press
   localizedMessage:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 324866576384
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
-    m_LocalVariables: []
+    m_LocalVariables:
+    - name: InteractKey
+      variable:
+        rid: 6778332102063030280
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 6778332102063030280
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: '[E]'
 --- !u!114 &1442295431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9059,19 +9100,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25560f2ef01ab3840858582c2a242d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Call Elevator
+  message: Press
   localizedMessage:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 324866576384
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
-    m_LocalVariables: []
+    m_LocalVariables:
+    - name: InteractKey
+      variable:
+        rid: 6778332102063030280
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 6778332102063030280
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: '[E]'
 --- !u!114 &1627839435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10643,7 +10691,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
     m_TableEntryReference:
-      m_KeyId: 153894162432
+      m_KeyId: 0
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -11698,7 +11746,6 @@ MonoBehaviour:
   cameraT: {fileID: 677229141}
   playerReach: 2
   interactionKey: 101
-  interactionKeyStr: '[E]'
 --- !u!4 &2053487232 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5590196941109326862, guid: cf4c9a7175aad6c4686e69cad3d19249, type: 3}
