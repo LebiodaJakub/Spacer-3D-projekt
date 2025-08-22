@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BarkPoplar001_ALP
+  m_Shader: {fileID: 4800000, guid: 0cfef65042c2e4941b0639ecee9b9f7f, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 8815b262b15479d4d85d57c0552dda18, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 2800000, guid: 33b7e7ce29f58c34cac527e7f32b0bab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e42d5f50ff117174f8da43a7785a4531, type: 3}
+        m_Scale: {x: 1, y: 0.8}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 9328d136140fa3d49ab8cb0a448c62d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothnessMap:
+        m_Texture: {fileID: 2800000, guid: f2aeab5bcdc6d1e4393e00823f1dffd0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AO: 2.4
+    - _BaseLight: 0.35
+    - _Brightness: 1
+    - _BumpScale: 1
+    - _CATEGORY_COLOR: 1
+    - _CATEGORY_DETAILMAPPING: 0
+    - _CATEGORY_DETAILMAPPINGSECONDARY: 0
+    - _CATEGORY_SURFACEINPUTS: 1
+    - _CATEGORY_TRANSMISSION: 0
+    - _CATEGORY_WIND: 1
+    - _Cull: 0
+    - _Cutoff: 0.5
+    - _DetailBlendEnableAltitudeMask: 0
+    - _DetailBlendHeight: 0.5
+    - _DetailBlendHeightMax: 1
+    - _DetailBlendHeightMin: -0.5
+    - _DetailBlendSmooth: 0.5
+    - _DetailBlendSource: 1
+    - _DetailBlendStrength: 1
+    - _DetailBlendVertexColor: 0
+    - _DetailBrightness: 1
+    - _DetailEnable: 0
+    - _DetailMaskBlendFalloff: 0.999
+    - _DetailMaskBlendHardness: 1
+    - _DetailMaskBlendStrength: 1
+    - _DetailMaskEnable: 0
+    - _DetailMaskIsInverted: 0
+    - _DetailMaskUVRotation: 0
+    - _DetailNormalMapScale: 1
+    - _DetailNormalStrength: 1
+    - _DetailUVMode: 0
+    - _DetailUVRotation: 0
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _MetallicStrength: 0
+    - _Mode: 0
+    - _NormalStrength: 0.8
+    - _OcclusionSource: 0
+    - _OcclusionStrength: 1
+    - _OcclusionStrengthAO: 0.2
+    - _Parallax: 0.02
+    - _SPACE_COLOR: 0
+    - _SPACE_DETAIL: 0
+    - _SPACE_DETAILSECONDARY: 0
+    - _SPACE_SURFACEINPUTS: 0
+    - _SPACE_TRANSLUCENCY: 0
+    - _SPACE_WIND: 0
+    - _Shininess: 0.337
+    - _SmoothnessFresnelEnable: 0
+    - _SmoothnessFresnelPower: 10
+    - _SmoothnessFresnelScale: 1.1
+    - _SmoothnessSource: 0
+    - _SmoothnessStrength: 0.9
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SquashAmount: 1
+    - _SrcBlend: 1
+    - _UVMode: 0
+    - _UVSec: 0
+    - _WindEnable: 1
+    - _WindEnableMode: 0
+    - _WindGlobalIntensity: 1
+    - _WindLocalDirection: 0
+    - _WindLocalIntensity: 1
+    - _WindLocalPulseFrequency: 0.1
+    - _WindLocalRandomOffset: 0.2
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DetailColor: {r: 1, g: 1, b: 1, a: 0}
+    - _DetailMaskUVs: {r: 1, g: 1, b: 0, a: 0}
+    - _DetailUVs: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainUVs: {r: 1, g: 1.4, b: 0, a: 0}
+    - _SpecColor: {r: 0.6839622, g: 0.8497526, b: 1, a: 1}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
