@@ -11,6 +11,8 @@ public class DoorScript : MonoBehaviour
     public bool Locked = false;
 
     Animator doorAnimator;
+    [SerializeField] Animation openAnimation;
+    [SerializeField] Animation closeAnimation;
     bool isDoorOpened = false;
     Interactable interactable;
     Collider doorCollider;
@@ -33,14 +35,20 @@ public class DoorScript : MonoBehaviour
 
     void OpenDoor()
     {
-        doorAnimator.Play("OpenDoorAnimation");
+        if (openAnimation)
+            doorAnimator.Play(openAnimation.name);
+        else
+            doorAnimator.Play("OpenDoorAnimation");
         isDoorOpened = true;
         interactable.localizedMessage = closeLocale;
     }
 
     void CloseDoor()
     {
-        doorAnimator.Play("CloseDoorAnimation");
+        if (openAnimation)
+            doorAnimator.Play(closeAnimation.name);
+        else
+            doorAnimator.Play("CloseDoorAnimation");
         isDoorOpened = false;
         interactable.localizedMessage = openLocale;
     }
