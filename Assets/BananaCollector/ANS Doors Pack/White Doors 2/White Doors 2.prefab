@@ -409,19 +409,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25560f2ef01ab3840858582c2a242d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
+  message: Open
   localizedMessage:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 29000372224
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
-    m_LocalVariables: []
+    m_LocalVariables:
+    - name: InteractKey
+      variable:
+        rid: 6778332102063030279
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 6778332102063030279
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: '[E]'
 --- !u!95 &9161863448016509449
 Animator:
   serializedVersion: 5

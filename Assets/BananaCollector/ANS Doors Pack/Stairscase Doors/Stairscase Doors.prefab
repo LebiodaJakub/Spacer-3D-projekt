@@ -519,16 +519,23 @@ MonoBehaviour:
   message: Open
   localizedMessage:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 29000372224
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
-    m_LocalVariables: []
+    m_LocalVariables:
+    - name: InteractKey
+      variable:
+        rid: 6778332102063030279
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 6778332102063030279
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: '[E]'
 --- !u!95 &7205412903984928691
 Animator:
   serializedVersion: 5
