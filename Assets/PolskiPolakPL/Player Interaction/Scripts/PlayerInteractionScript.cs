@@ -61,8 +61,15 @@ public class PlayerInteractionScript : MonoBehaviour
     {
         currentInteractable = newInteractable;
         currentInteractable.EnableOutline();
-        if (InteractionUIManager.Instance)
+        if (!InteractionUIManager.Instance)
+        {
+            Debug.LogWarning("Interaction UI Manager has not been set!");
+            return;
+        }
+        if(InteractionUIManager.Instance.localizeStrEvent != null)
             InteractionUIManager.Instance.EnableInteractionText(currentInteractable.localizedMessage);
+        else
+            InteractionUIManager.Instance.EnableInteractionText(currentInteractable.message);
     }
 
     void DisableCurrentInteractable()
@@ -75,4 +82,3 @@ public class PlayerInteractionScript : MonoBehaviour
         currentInteractable = null;
     }
 }
-

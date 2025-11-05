@@ -22,7 +22,7 @@ public class InteractionUIManager : MonoBehaviour
 
     //Attributes
     [SerializeField] TMP_Text interactionMessage;
-    [SerializeField] LocalizeStringEvent localizeStrEvent;
+    public LocalizeStringEvent localizeStrEvent;
 
     public void EnableInteractionText(string text)
     {
