@@ -11,8 +11,8 @@ public class DoorScript : MonoBehaviour
     public bool Locked = false;
 
     Animator doorAnimator;
-    [SerializeField] Animation openAnimation;
-    [SerializeField] Animation closeAnimation;
+    [SerializeField] AnimationClip openAnimation;
+    [SerializeField] AnimationClip closeAnimation;
     bool isDoorOpened = false;
     Interactable interactable;
     Collider doorCollider;
