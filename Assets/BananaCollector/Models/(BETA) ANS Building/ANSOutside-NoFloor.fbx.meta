@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: 104fd6be03b344e498804c8f423379df
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gumeleon Color
+    second: {fileID: 2800000, guid: 02b3fdab8a568184198d3834f8814d02, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beton Color
+    second: {fileID: 2800000, guid: 8f25c7e84ea9bae44ace0ca1d90500c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beton Normal
+    second: {fileID: 2800000, guid: edc7c093e515e234986d4cafbeecea9a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beton kamienie Normal
+    second: {fileID: 2800000, guid: b6b459859fe72b948a360fc2ac450cf8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'beton kamienie diff '
+    second: {fileID: 2800000, guid: 9b9ed132661e1414895758964aa7738e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beton kamienie rough
+    second: {fileID: 2800000, guid: b354253e170596a41b4b581e15f975c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cegla Color
+    second: {fileID: 2800000, guid: efc6dc1c7e5f67c40a185d666b5e30f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cegla Normal
+    second: {fileID: 2800000, guid: cb42a6511deef6449b9a53a03830e248, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chrom Color
+    second: {fileID: 2800000, guid: 3c509cc09272a4143821445943b7458a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chrom Metallic
+    second: {fileID: 2800000, guid: d304f925a9e6a764a992f6077223c7bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chrom Roughness
+    second: {fileID: 2800000, guid: b754d0d0c065e2b40b0d9de59c716d09, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "drzwi dw\xF3r Color"
+    second: {fileID: 2800000, guid: 36882342f49b8cc4293d711ad637a70e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "drzwi dw\xF3r MetallicSmoothness"
+    second: {fileID: 2800000, guid: 5becea02600d3134aa4bfdcb1faa2ede, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "drzwi dw\xF3r Normal"
+    second: {fileID: 2800000, guid: e1de63701a2968a48aaa9e37de9c070f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kafelki szare Color
+    second: {fileID: 2800000, guid: bbfecd21561ca324e953354579e8e635, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kafelki szare normal
+    second: {fileID: 2800000, guid: ac5f7103cf544744aa7d66d4b4ea1161, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kafelki szare rough
+    second: {fileID: 2800000, guid: 0128f0eb670a5a4468de0d2974cc6d25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: metal winda Color
+    second: {fileID: 2800000, guid: 2467ade0973fa78438077fcb8e770c47, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: metal winda Normal
+    second: {fileID: 2800000, guid: d2ac2a2170a2b284e99e49a750cc199f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: niebieski metal Color
+    second: {fileID: 2800000, guid: ae39f2b66a08c2e45bbd651802625e03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: niebieski metal Normal
+    second: {fileID: 2800000, guid: d05cc4a404d67034492bb58beda68d2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: okna szyby AlbedoTransparency
+    second: {fileID: 2800000, guid: 90a6c73bab4251f4c94d55d33598e2aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: okna szyby MetallicSmoothness
+    second: {fileID: 2800000, guid: 1b50c800d1485304a8abd8fb004c8f80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: okna szyby Normal
+    second: {fileID: 2800000, guid: 7bfe7bd461ae6b14eb12d7b9da1fbbad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: panel Color
+    second: {fileID: 2800000, guid: 026666fa4d67405429ab1a3427e1ba4d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: panel Metallic
+    second: {fileID: 2800000, guid: 865fb4bd68d68984bb4ba2c4c2499a7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: panel Normal
+    second: {fileID: 2800000, guid: 9cbff4bff0a7b4442bf8666c86492803, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: papa dach Color
+    second: {fileID: 2800000, guid: cc227ed9c81152a42ab23994908e5446, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: papa dach Normal
+    second: {fileID: 2800000, guid: d5c550612e48d5c499c28d4fb41bb552, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rama okna AlbedoTransparency
+    second: {fileID: 2800000, guid: 07c3f013a88d4da4a98a52779e881024, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rama szyb gora MetallicSmoothness
+    second: {fileID: 2800000, guid: 993fa9b3f8d317f42a6b6a219a574192, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rama szyb gora Normal
+    second: {fileID: 2800000, guid: 55b230f1e97dbf34a9f7a8b4802d3ef2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "sciana bia\u0142a Color"
+    second: {fileID: 2800000, guid: f9f6bf1c79c508b4a94158584e9e3cfd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "sciana bia\u0142a Normal"
+    second: {fileID: 2800000, guid: 59252be82a7ec294cb818dc1b5c8b5a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sciana czerwony Color
+    second: {fileID: 2800000, guid: 7709eeb77bc98de4b99d3eac876b637d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sciana niebieska Color
+    second: {fileID: 2800000, guid: 3f984d4077325da4692a931e150ab418, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sciana niebieska Normal
+    second: {fileID: 2800000, guid: c56785cdbe6d56146b00480203c81c99, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "sciana pomara\u0144cz Color"
+    second: {fileID: 2800000, guid: 8e1e2e9f9b44965438fcd8be0f7069f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "sciana r\xF3\u017Cowy Color"
+    second: {fileID: 2800000, guid: e63f714ad59706648bcdb8dbdaef5725, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'tynk bialy Color '
+    second: {fileID: 2800000, guid: 6ebe35f02f43a5b48b2e080326c01806, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'tynk bialy Normal '
+    second: {fileID: 2800000, guid: 98e593a13fa5b6c4fbff4b2eef81291d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tynk czerwony Normal
+    second: {fileID: 2800000, guid: 5dba557b891fda74eacf659664b06c0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tynk grafit Color
+    second: {fileID: 2800000, guid: 8151031ad4d9742478aa2e5efc2698a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tynk grafit Normal
+    second: {fileID: 2800000, guid: 77c6680fd7b7def4297e09dfd098a609, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tynk pomaranczowy Normal
+    second: {fileID: 2800000, guid: 5a0cef62a5878f14e8f2039272899bbc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tynk rozowy Normal
+    second: {fileID: 2800000, guid: 5e9f3d90d9eb2b84c987eeaa17257db6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tynk szary Color
+    second: {fileID: 2800000, guid: 6cfc4c3cd423fea48a18c2aed398bdc8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tynk szary Normal
+    second: {fileID: 2800000, guid: 9334febea529dc7499178b2820f41b8a, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
