@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 3039417832967801614}
   - component: {fileID: 7223838058414232229}
   - component: {fileID: 1278011734401667364}
-  - component: {fileID: 5961901790534021535}
+  - component: {fileID: 329268851800117831}
   m_Layer: 0
   m_Name: DoorWing0P.017
   m_TagString: Interactable
@@ -237,11 +237,11 @@ MonoBehaviour:
     m_LocalVariables:
     - name: InteractKey
       variable:
-        rid: 6778332102063030279
+        rid: 4672946555489878241
   references:
     version: 2
     RefIds:
-    - rid: 6778332102063030279
+    - rid: 4672946555489878241
       type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
       data:
         m_Value: '[E]'
@@ -266,7 +266,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5961901790534021535
+--- !u!114 &329268851800117831
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -275,47 +275,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2608039491171556084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83ad63b226b35a34fa6813f3fc0cfd8a, type: 3}
+  m_Script: {fileID: 11500000, guid: a64ed190bbca8dc43baf8401a35162c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openLocale:
-    m_TableReference:
-      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
-    m_TableEntryReference:
-      m_KeyId: 29000372224
-      m_Key: 
-    m_FallbackState: 0
-    m_WaitForCompletion: 0
-    m_LocalVariables:
-    - name: InteractKey
-      variable:
-        rid: 6778332102063030278
-  closeLocale:
-    m_TableReference:
-      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
-    m_TableEntryReference:
-      m_KeyId: 1017086119936
-      m_Key: 
-    m_FallbackState: 0
-    m_WaitForCompletion: 0
-    m_LocalVariables:
-    - name: InteractKey
-      variable:
-        rid: 6778332102063030276
-  Locked: 0
-  openAnimation: {fileID: 7400000, guid: 807fe7ade0afde74f83c4e5f3454e116, type: 2}
-  closeAnimation: {fileID: 7400000, guid: a8c7a2ba2602d754cb3aba313b52fd04, type: 2}
-  references:
-    version: 2
-    RefIds:
-    - rid: 6778332102063030276
-      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
-      data:
-        m_Value: '[E]'
-    - rid: 6778332102063030278
-      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
-      data:
-        m_Value: '[E]'
+  doorAnimator: {fileID: 1278011734401667364}
 --- !u!1 &2956060771699464118
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,6 +288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1714207105759619012}
+  - component: {fileID: 5365136920858142527}
   m_Layer: 0
   m_Name: Exit Doors
   m_TagString: Untagged
@@ -350,6 +314,60 @@ Transform:
   - {fileID: 8984957542239182293}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5365136920858142527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2956060771699464118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83ad63b226b35a34fa6813f3fc0cfd8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorsGO: {fileID: 2608039491171556084}
+  Locked: 0
+  interactable: {fileID: 7223838058414232229}
+  doorAnimationScript: {fileID: 329268851800117831}
+  animatorController: {fileID: 9100000, guid: e5777772c28955d4bae41322bcc4ec8b, type: 2}
+  openAnimation: {fileID: 7400000, guid: 807fe7ade0afde74f83c4e5f3454e116, type: 2}
+  closeAnimation: {fileID: 7400000, guid: a8c7a2ba2602d754cb3aba313b52fd04, type: 2}
+  openLocale:
+    m_TableReference:
+      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
+    m_TableEntryReference:
+      m_KeyId: 29000372224
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables:
+    - name: InteractKey
+      variable:
+        rid: 4672946555489878231
+  closeLocale:
+    m_TableReference:
+      m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
+    m_TableEntryReference:
+      m_KeyId: 1017086119936
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables:
+    - name: InteractKey
+      variable:
+        rid: 4672946555489878238
+  references:
+    version: 2
+    RefIds:
+    - rid: 4672946555489878231
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: '[E]'
+    - rid: 4672946555489878238
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: '[E]'
 --- !u!1 &3826029719039995223
 GameObject:
   m_ObjectHideFlags: 0

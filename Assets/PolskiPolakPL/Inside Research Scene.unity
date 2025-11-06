@@ -1231,17 +1231,73 @@ PrefabInstance:
     m_TransformParent: {fileID: 1115956545}
     m_Modifications:
     - target: {fileID: 1252478634977553394, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878109]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 1252478634977553394, guid: 641518589e424e349991c888de526521, type: 3}
       propertyPath: localizedMessage.m_TableEntryReference.m_KeyId
-      value: 29000372224
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1252478634977553394, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878109].m_Value
+      value: '[E]'
       objectReference: {fileID: 0}
     - target: {fileID: 1252478634977553394, guid: 641518589e424e349991c888de526521, type: 3}
       propertyPath: localizedMessage.m_TableReference.m_TableCollectionName
-      value: GUID:783ce012de0af73489248f0ca0f30e9c
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1252478634977553394, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: localizedMessage.m_LocalVariables.Array.data[0].variable
+      value: 4672946555489878109
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836335530502883621, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: doorsGO
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836335530502883621, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: doorAnimator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836335530502883621, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: doorCollider
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836335530502883621, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: interactable
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836335530502883621, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: animatorController
+      value: 
+      objectReference: {fileID: 9100000, guid: 65be4bc812458bd45906ff1b51dd5d67, type: 2}
+    - target: {fileID: 3836335530502883621, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878077]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836335530502883621, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878079]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836335530502883621, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878077].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836335530502883621, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878079].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836335530502883621, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: openLocale.m_LocalVariables.Array.data[0].variable
+      value: 4672946555489878079
       objectReference: {fileID: 0}
     - target: {fileID: 4415512332660046053, guid: 641518589e424e349991c888de526521, type: 3}
       propertyPath: m_Name
       value: doors
       objectReference: {fileID: 0}
+    - target: {fileID: 5698122786763145227, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 65be4bc812458bd45906ff1b51dd5d67, type: 2}
     - target: {fileID: 6118808478217338052, guid: 641518589e424e349991c888de526521, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.54578686
@@ -1285,6 +1341,230 @@ PrefabInstance:
     - target: {fileID: 7304911519494948811, guid: 641518589e424e349991c888de526521, type: 3}
       propertyPath: m_TagString
       value: Interactable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: openAnimation
+      value: 
+      objectReference: {fileID: 7400000, guid: a77d5f847304d2d478f878deca54317f, type: 2}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: closeAnimation
+      value: 
+      objectReference: {fileID: 7400000, guid: ce0445df964a0b149b9876b668f3a7c6, type: 2}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878118]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878121]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878124]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878127]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878130]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878133]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878143]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878146]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878151]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878160]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878163]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878169]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878172]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878175]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878181]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878190]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878199]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878202]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878206]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878209]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878212]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878214]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878218]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878223]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878226]
+      value: Unity.Localization UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: closeLocale.m_LocalVariables.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878118].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878121].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878124].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878127].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878130].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878133].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878143].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878146].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878151].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878160].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878163].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878169].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878172].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878175].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878181].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878190].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878199].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878202].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878206].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878209].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878212].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878214].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878218].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878223].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: managedReferences[4672946555489878226].m_Value
+      value: '[E]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: closeLocale.m_LocalVariables.Array.data[0].name
+      value: InteractKey
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: openLocale.m_LocalVariables.Array.data[0].variable
+      value: 4672946555489878226
+      objectReference: {fileID: 0}
+    - target: {fileID: 8157692041871785885, guid: 641518589e424e349991c888de526521, type: 3}
+      propertyPath: closeLocale.m_LocalVariables.Array.data[0].variable
+      value: 4672946555489878218
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -309,6 +309,7 @@ GameObject:
   - component: {fileID: 7490104357711858229}
   - component: {fileID: 6497075023020544618}
   - component: {fileID: 875489382809529255}
+  - component: {fileID: 2844482322460661243}
   m_Layer: 0
   m_Name: DoorWing0L.006
   m_TagString: Interactable
@@ -447,11 +448,11 @@ MonoBehaviour:
     m_LocalVariables:
     - name: InteractKey
       variable:
-        rid: 6778332102063030279
+        rid: 4672946555489878254
   references:
     version: 2
     RefIds:
-    - rid: 6778332102063030279
+    - rid: 4672946555489878254
       type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
       data:
         m_Value: '[E]'
@@ -488,6 +489,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83ad63b226b35a34fa6813f3fc0cfd8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorsGO: {fileID: 8177183133098595804}
+  Locked: 0
+  interactable: {fileID: 7490104357711858229}
+  doorAnimationScript: {fileID: 2844482322460661243}
+  animatorController: {fileID: 0}
+  openAnimation: {fileID: 7400000, guid: 4c855c1b3f2cd5742a61126b10eabf7e, type: 2}
+  closeAnimation: {fileID: 7400000, guid: ce188448897323f4196a2936bb5bd1f5, type: 2}
   openLocale:
     m_TableReference:
       m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
@@ -512,9 +520,6 @@ MonoBehaviour:
     - name: InteractKey
       variable:
         rid: 6778332102063030276
-  Locked: 0
-  openAnimation: {fileID: 7400000, guid: 4c855c1b3f2cd5742a61126b10eabf7e, type: 2}
-  closeAnimation: {fileID: 7400000, guid: ce188448897323f4196a2936bb5bd1f5, type: 2}
   references:
     version: 2
     RefIds:
@@ -526,6 +531,19 @@ MonoBehaviour:
       type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
       data:
         m_Value: '[E]'
+--- !u!114 &2844482322460661243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8177183133098595804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64ed190bbca8dc43baf8401a35162c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorAnimator: {fileID: 6497075023020544618}
 --- !u!1 &9140645454817980972
 GameObject:
   m_ObjectHideFlags: 0

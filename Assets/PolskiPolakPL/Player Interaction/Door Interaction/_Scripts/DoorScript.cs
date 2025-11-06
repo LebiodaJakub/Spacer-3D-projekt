@@ -1,32 +1,63 @@
 using UnityEngine;
 using UnityEngine.Localization;
 
-[RequireComponent(typeof(Interactable))]
-[RequireComponent(typeof(Animator))]
 public class DoorScript : MonoBehaviour
 {
+    [Header("Door Settings")]
+    [SerializeField] GameObject doorsGO;
+    public bool Locked = false;
+    [SerializeField] Interactable interactable;
+
+    [Header("Animation")]
+    [SerializeField] DoorAnimation doorAnimationScript;
+    public RuntimeAnimatorController animatorController;
+    public AnimationClip openAnimation;
+    public AnimationClip closeAnimation;
+
+    [Header("Language Localization")]
     [SerializeField] LocalizedString openLocale;
     [SerializeField] LocalizedString closeLocale;
 
-    public bool Locked = false;
-
-    Animator doorAnimator;
-    [SerializeField] AnimationClip openAnimation;
-    [SerializeField] AnimationClip closeAnimation;
     bool isDoorOpened = false;
-    Interactable interactable;
-    Collider doorCollider;
+
+#if UNITY_EDITOR
+
+    private void OnValidate()
+    {
+        if (!doorsGO)
+            return;
+        SetDoorsComponents();
+        if (animatorController)
+            doorAnimationScript.SetAnimatorController(animatorController);
+    }
+
+    private void SetDoorsComponents()
+    {
+        //Interaction
+        if(!doorsGO.TryGetComponent<Interactable>(out interactable))
+        {
+            interactable = doorsGO.AddComponent<Interactable>();
+        }
+        GetInteractionMessage();
+
+        //Animation
+        if (!doorsGO.TryGetComponent<DoorAnimation>(out doorAnimationScript))
+        {
+            doorAnimationScript = doorsGO.AddComponent<DoorAnimation>();
+        }
+    }
+
+#endif
 
     private void Awake()
     {
-        interactable = GetComponent<Interactable>();
-        doorAnimator = GetComponent<Animator>();
         interactable.OnInteraction += DoInteraction;
-        doorCollider = GetComponent<Collider>();
     }
 
     public void DoInteraction()
     {
+        if (Locked)
+            return;
         if (isDoorOpened)
             CloseDoor();
         else
@@ -35,34 +66,39 @@ public class DoorScript : MonoBehaviour
 
     void OpenDoor()
     {
-        if (openAnimation)
-            doorAnimator.Play(openAnimation.name);
-        else
-            doorAnimator.Play("OpenDoorAnimation");
+        doorAnimationScript.PlayAnimation(openAnimation);
         isDoorOpened = true;
-        interactable.localizedMessage = closeLocale;
+        GetInteractionMessage();
     }
 
     void CloseDoor()
     {
-        if (openAnimation)
-            doorAnimator.Play(closeAnimation.name);
-        else
-            doorAnimator.Play("CloseDoorAnimation");
+        doorAnimationScript.PlayAnimation(closeAnimation);
         isDoorOpened = false;
-        interactable.localizedMessage = openLocale;
+        GetInteractionMessage();
+    }
+
+    void GetInteractionMessage()
+    {
+        if (Locked)
+        {
+            interactable.message = "<color=#ff0000>[LOCKED]</color>";
+            return;
+        }
+        if (isDoorOpened)
+        {
+            interactable.localizedMessage = closeLocale;
+            interactable.message = "Close";
+        }
+        else
+        {
+            interactable.localizedMessage = openLocale;
+            interactable.message = "Open";
+        }
     }
 
     private void OnDestroy()
     {
         interactable.OnInteraction -= DoInteraction;
-    }
-    void EnableCollider()
-    {
-        doorCollider.enabled = true;
-    }
-    void DisableCollider()
-    {
-        doorCollider.enabled = false;
     }
 }

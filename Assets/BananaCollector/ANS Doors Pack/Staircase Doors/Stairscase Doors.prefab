@@ -389,6 +389,7 @@ GameObject:
   - component: {fileID: 7421562855605432323}
   - component: {fileID: 7205412903984928691}
   - component: {fileID: 3018712038746225613}
+  - component: {fileID: 4796793591541132133}
   m_Layer: 0
   m_Name: DoorWing0P.002
   m_TagString: Interactable
@@ -528,11 +529,11 @@ MonoBehaviour:
     m_LocalVariables:
     - name: InteractKey
       variable:
-        rid: 6778332102063030279
+        rid: 4672946555489878258
   references:
     version: 2
     RefIds:
-    - rid: 6778332102063030279
+    - rid: 4672946555489878258
       type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
       data:
         m_Value: '[E]'
@@ -569,6 +570,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83ad63b226b35a34fa6813f3fc0cfd8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorsGO: {fileID: 8280029580264552478}
+  Locked: 0
+  interactable: {fileID: 7421562855605432323}
+  doorAnimationScript: {fileID: 4796793591541132133}
+  animatorController: {fileID: 0}
+  openAnimation: {fileID: 7400000, guid: 1001b3ea0b6b55245b752d2f097a46c6, type: 2}
+  closeAnimation: {fileID: 7400000, guid: d76c7c99fcf24a44385f35895bba27c2, type: 2}
   openLocale:
     m_TableReference:
       m_TableCollectionName: GUID:783ce012de0af73489248f0ca0f30e9c
@@ -593,9 +601,6 @@ MonoBehaviour:
     - name: InteractKey
       variable:
         rid: 6778332102063030276
-  Locked: 0
-  openAnimation: {fileID: 7400000, guid: 1001b3ea0b6b55245b752d2f097a46c6, type: 2}
-  closeAnimation: {fileID: 7400000, guid: d76c7c99fcf24a44385f35895bba27c2, type: 2}
   references:
     version: 2
     RefIds:
@@ -607,3 +612,16 @@ MonoBehaviour:
       type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
       data:
         m_Value: '[E]'
+--- !u!114 &4796793591541132133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8280029580264552478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64ed190bbca8dc43baf8401a35162c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorAnimator: {fileID: 7205412903984928691}
