@@ -150,7 +150,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 80749140bcf062f4fbffbbbd6850a15d, type: 2}
+  - {fileID: 2100000, guid: 2ee4429bf077be84d89f7f5415ffc2f5, type: 2}
   - {fileID: 2100000, guid: 2ee4429bf077be84d89f7f5415ffc2f5, type: 2}
   - {fileID: 2100000, guid: 67f27cb1dd643f84f993eef8e3cd8401, type: 2}
   m_StaticBatchInfo:
@@ -237,11 +237,11 @@ MonoBehaviour:
     m_LocalVariables:
     - name: InteractKey
       variable:
-        rid: 4672946555489878241
+        rid: 4672946583966580744
   references:
     version: 2
     RefIds:
-    - rid: 4672946555489878241
+    - rid: 4672946583966580744
       type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
       data:
         m_Value: '[E]'
@@ -430,7 +430,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 80749140bcf062f4fbffbbbd6850a15d, type: 2}
+  - {fileID: 2100000, guid: 2ee4429bf077be84d89f7f5415ffc2f5, type: 2}
   - {fileID: 2100000, guid: 2ee4429bf077be84d89f7f5415ffc2f5, type: 2}
   - {fileID: 2100000, guid: 67f27cb1dd643f84f993eef8e3cd8401, type: 2}
   m_StaticBatchInfo:
@@ -539,7 +539,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 80749140bcf062f4fbffbbbd6850a15d, type: 2}
+  - {fileID: 2100000, guid: 2ee4429bf077be84d89f7f5415ffc2f5, type: 2}
   - {fileID: 2100000, guid: 2ee4429bf077be84d89f7f5415ffc2f5, type: 2}
   - {fileID: 2100000, guid: 67f27cb1dd643f84f993eef8e3cd8401, type: 2}
   m_StaticBatchInfo:
