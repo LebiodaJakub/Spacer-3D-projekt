@@ -22,7 +22,6 @@ public class ElevatorScript : MonoBehaviour
             return;
         Move();
     }
-
     public void Open()
     {
         animator.Play("Open Animation");
@@ -33,19 +32,16 @@ public class ElevatorScript : MonoBehaviour
         OnElevatorStarted?.Invoke();
         animator.Play("Close Animation");
     }
-
     public void StartElevator()
     {
         targetPos = floors[TargetLevel];
     }
-
     private void Move()
     {
         transform.position = Vector3.MoveTowards(transform.position, targetPos, elevatorSpeed * Time.deltaTime);
         if (ElevatorOnTarget())
             Open();
     }
-
     bool ElevatorOnTarget()
     {
         return transform.position==targetPos;

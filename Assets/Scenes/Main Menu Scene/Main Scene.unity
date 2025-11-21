@@ -5104,9 +5104,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1805008998}
   - component: {fileID: 1805009000}
+  - component: {fileID: 1805009002}
   - component: {fileID: 1805008999}
   - component: {fileID: 1805009001}
-  - component: {fileID: 1805009002}
   m_Layer: 0
   m_Name: Main Building
   m_TagString: Untagged
